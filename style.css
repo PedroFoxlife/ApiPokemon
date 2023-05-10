@@ -1,0 +1,204 @@
+@font-face {
+    font-family: pokemon;
+    src: url(PokemonClassic.ttf);
+}
+
+  img{
+    display: block;
+    margin-left:auto ;
+    margin-right:auto ;
+    height: 20vw;
+}
+.textoPesquisa {
+  
+    margin-block-start: 25px;
+    margin-block-end: 25px;
+    margin-inline-start: 35%;
+    margin-inline-end: 37%;
+    font-size: 1.2em;
+    text-align: center;
+    display:block;
+    border-right: 2px solid black;
+    padding-right: 3px ;
+    max-width:0;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: pokemon;
+    animation: pisca normal infinite .8s, escrever normal 5s steps(55) both ;
+    
+ 
+}
+
+.caixa{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    /* margin-left:360px ;
+    margin-right:auto ; */
+    font-family: pokemon;
+    color: black;
+}
+.butao{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-family: pokemon;
+    color: black;
+    }
+
+body {
+    width: 100vw;
+    height: 100vw; 
+    display: block;
+    margin: 0 auto;   
+    background-color: rgb(206, 251, 209);
+  }
+  
+  table{
+
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid black;
+    width: 1000px;
+    table-layout: auto;
+    background-color:rgb(255, 255, 255);
+    text-align: center;
+    border-collapse: collapse;
+    font-family: pokemon;
+    color: black;
+  
+  }
+  .bloco1{
+    background-color: rgb(224, 221, 221);
+    border-collapse: collapse;
+    border: solid 1px black;
+  }
+  .bloco2{
+    border-collapse: collapse;
+    
+  }
+.bloco3{
+  border-collapse: collapse;
+
+  background-color: rgb(224, 221, 221);
+  }
+  .bloco4{
+    border-collapse: collapse;
+    
+  }
+  .linha1{
+    border-collapse: collapse;
+    border: solid 1px black;
+  }
+  .linha4{
+    border-collapse: collapse;
+    border: solid 1px black;
+  }
+
+
+  @keyframes pisca{
+   100%{
+    border-right-color: transparent;
+   }
+  }
+  @keyframes escrever{
+    100%{
+      max-width:100%;
+    }
+  }
+
+.box{
+  background-color: antiquewhite;
+  display: flex;
+  margin:200px ;
+  margin-top: 50px;
+  width: 80vw;
+  height: 45vw;
+  align-items: center;
+  justify-content: center;
+  border:  solid 5px black;
+  border-radius: 20px;
+}
+
+.sprites{
+  display: flex;
+  
+  height: 15vw;
+}
+.voltar{
+
+ font-family: pokemon;
+ position: absolute;
+ right: 7vw;
+ top: 45vw;
+ color: black;
+  
+}
+.textoS{
+  font-family: pokemon;
+  position: absolute;
+  top: 4vw;
+  left: 48%;
+  color: black;
+}
+.textoS1{
+  font-family: pokemon;
+  color: black;
+}
+.textoS2{
+  font-family: pokemon;
+  position: absolute;
+  top: 27vw;
+  left: 50%;
+  color: black;
+}
+.caixaInfB{
+text-align: center;
+background-color: rgb(239, 239, 239);
+font-family: pokemon;
+position: absolute;
+width: 28vw;
+height: 35vw;
+top: 8vw;
+left: 25vw;
+border: solid 5px;
+
+}
+.caixaMoves{
+text-align: center;
+background-color: rgb(239, 239, 239);
+font-family: pokemon;
+position: absolute;
+width: 28vw;
+height: 35vw;
+top: 8vw;
+right: 15vw;
+border: solid 5px;
+
+}
+.moves{
+  margin-top: 5px;
+  text-align: center;
+  font-size: 1.2vw;
+}
+
+.botoesMoves{
+  background-color: rgb(255, 255, 255);
+  font-family: pokemon;
+  border: solid 3.5px;
+  margin-top: 30px;
+}
+
+.verImg{
+ 
+
+    font-family: pokemon;
+    position: absolute;
+    left: 15vw;
+    top: 45vw;
+    color: black;
+     
+   
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Pokemon 2.0 </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <img class="img" src="pkm.png">
+  <div>
+    <p class="textoPesquisa"> Pesquise seu pokémon aqui: </p>
+  </div>
+  <input class="caixa" type="text" placeholder="Ex:Pikachu ou '2'" id="text"><br>
+  <input class="butao" type="submit" value="Pesquisar" id="pesquisar">
+  <table id="tabela" style="display: none;">
+    <tr class="linha1">
+      <th class="bloco1">SPRITE</th>
+      <th class="bloco2">ALIBILIDADES</th>
+      <th class="bloco3">TIPOS</th>
+      <th class="bloco4">JOGOS</th>
+
+    </tr>
+    <tr class="linha2">
+      <td class="bloco1"> <img class="pokemon__img"><br></td>
+      <td id="abilidade__linha1"></td>
+      <td id="tipo__linha1" class="bloco3"></td>
+      <td id="jogo__linha1" class="bloco4"></td>
+    </tr>
+    <tr class="linha3">
+      <td id="pokemon__name" class="bloco1"></td>
+      <td id="abilidade__linha2"></td>
+      <td id="tipo__linha2" class="bloco3"></td>
+      <td id="jogo__linha2" class="nome__jogos" class="bloco4"></td>
+    </tr>
+    <tr class="linha4">
+      <td class="bloco1"><a href="sprites.html">Ver todas da imagens</a></td>
+      <td class="bloco2"><a href="abilidades.html">Saber Mais</a></td>
+      <td class="bloco3"></td>
+      <td class="bloco4"><a href="sprites.html">Ver todos Jogos</a></td>
+    </tr>
+  </table>
+
+
+
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
